@@ -1,4 +1,4 @@
-$font-stack: Helvetica, sans-serif;
+$font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $primary-color: #edefee;
 $secondary-color: #d08856;
 $third-color: #aa210f;
@@ -8,4 +8,8 @@ body {
   font: $font-stack;
   background-color: $primary-color;
   color: $secondary-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  margin: 0;
 }
