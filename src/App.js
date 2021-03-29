@@ -1,5 +1,6 @@
 import React from 'react';
 import { HeaderContainer } from './containers/header'
+import { ContactContainer } from './containers/contact'
 
 
 
@@ -18,7 +19,7 @@ function App() {
       </section>
       <section id="work"></section>
       <section id="contact">
-        <h1>Contact me</h1>
+        <ContactContainer />
       </section>
     </div>
   );
