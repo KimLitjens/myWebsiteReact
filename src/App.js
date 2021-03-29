@@ -1,8 +1,13 @@
-import './App.css';
+import React from 'react';
+import { HeaderContainer } from './containers/header'
+
+
+
 
 function App() {
   return (
     <div className="App">
+      <HeaderContainer />
       <section id="start">
         <h1>Hey, I am Kim. I'm a web developer</h1>
       </section>

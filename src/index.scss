@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+
 $font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $primary-color: #edefee;
 $secondary-color: #d08856;
@@ -12,4 +14,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
   margin: 0;
+}
+
+header {
+  padding: 1em;
+}
+
+section {
+  height: 20rem;
+  padding: 5em 2em;
+  color: $secondary-color;
+  &:nth-child(even) {
+    background-color: $fourth-color;
+  }
 }
