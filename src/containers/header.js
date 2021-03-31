@@ -14,7 +14,7 @@ export function HeaderContainer({ children }) {
                     <Nav.Link href="#home">Home</Nav.Link>
                     <Nav.Link href="#whatIDo">What I Do</Nav.Link>
                     <Nav.Link href="#aboutMe">About Me</Nav.Link>
-                    <Nav.Link href="#work">Work</Nav.Link>
+                    <Nav.Link href="#work">My Work</Nav.Link>
                     <Nav.Link href="#contact">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
