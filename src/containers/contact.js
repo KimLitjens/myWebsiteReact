@@ -3,11 +3,11 @@ import React from 'react';
 
 export function ContactContainer({ children }) {
     return (
-        <div class="container ">
+        <div class="container" id="contact">
             <div class="formBx">
                 <form
                     data-netlify="true"
-                    class=" needs-validation"
+                    class="needs-validation"
                     method="post"
                     name="contact"
                     data-netlify-recaptcha="true"

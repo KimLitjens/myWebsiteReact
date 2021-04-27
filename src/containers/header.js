@@ -1,23 +1,24 @@
 import React from 'react';
-import {
-    Navbar,
-    Nav,
-} from 'react-bootstrap'
 
 export function HeaderContainer({ children }) {
     return (
-        <Navbar bg="light" expand="false">
-            <Navbar.Brand href="#home">Kim Litjens</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#whatIDo">What I Do</Nav.Link>
-                    <Nav.Link href="#aboutMe">About Me</Nav.Link>
-                    <Nav.Link href="#work">My Work</Nav.Link>
-                    <Nav.Link href="#contact">Contact</Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
-        </Navbar>
+        <header>
+            <div className="logo  ">
+                {/* <img src={"/images/kim.jpg"} alt="Kim" className="h-32" /> */}
+            </div>
+            <button className="nav-toggle" aria-label="toggle navigation">
+                <span className="hamburger"></span>
+            </button>
+            <nav className="nav">
+                <ul className="navList">
+                    <li className="navItem"><a href="#home" className="navLink"></a>Home</li>
+                    <li className="navItem"><a href="#services" className="navLink">My Services</a></li>
+                    <li className="navItem"><a href="#about" className="navLink">About me</a></li>
+                    <li className="navItem"><a href="#work" className="navLink">My Work</a></li>
+                    <li className="navItem"><a href="#contact" className="navLink">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
     )
 }
+
