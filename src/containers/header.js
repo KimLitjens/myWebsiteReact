@@ -10,8 +10,8 @@ export function HeaderContainer({ children }) {
                 <span className="hamburger"></span>
             </button>
             <nav className="nav">
-                <ul className="navList bg-red-500">
-                    <li className="navItem"><a href="#home" className="navLink"></a>Home</li>
+                <ul className="navList bg-primary">
+                    <li className="navItem"><a href="#home" className="navLink">Home</a></li>
                     <li className="navItem"><a href="#services" className="navLink">My Services</a></li>
                     <li className="navItem"><a href="#about" className="navLink">About me</a></li>
                     <li className="navItem"><a href="#work" className="navLink">My Work</a></li>
