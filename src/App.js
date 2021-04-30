@@ -13,7 +13,7 @@ import { FooterContainer } from './containers/footer'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App body">
       <HeaderContainer />
       <section id="intro">
         <IntroContainer />

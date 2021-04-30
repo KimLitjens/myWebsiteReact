@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-color: orange;
+@layer base {
+  :root {
+    @apply bg-accent text-light m-0 font-primary text-base leading-base ;
+ 
+  }
+
+  /* @screen md{
+    @apply bg-red-500
+  } */
 }
+
+  
