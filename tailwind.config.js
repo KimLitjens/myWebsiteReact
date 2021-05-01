@@ -1,18 +1,10 @@
-const colors = require('tailwindcss/colors')
+// const colors = require('tailwindcss/colors')
 
 
 module.exports = {
     purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        colors: {
-            transparent: 'transparent',
-            current: 'currentColor',
-            'light': '#edefee',
-            'accent': '#d08856',
-            'secondAccent': ' #aa210f',
-            'dark': '#41403c',
-        },
         fontFamily: {
             'primary': ['Source Sans Pro', 'sans-serif'],
             'secondary': ['Source Code Pro', 'monospace'],
@@ -30,7 +22,14 @@ module.exports = {
         lineHeight: {
             'base': '1.6'
         },
-        extend: {},
+        extend: {
+            colors: {
+                'light': '#edefee',
+                'accent': '#d08856',
+                'secondAccent': ' #aa210f',
+                'dark': '#41403c',
+            }
+        },
     },
     variants: {
         extend: {},

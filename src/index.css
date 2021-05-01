@@ -3,14 +3,15 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    @apply bg-accent text-light m-0 font-primary text-base leading-base ;
- 
+  /* :root {
+    @apply bg-light m-0 font-primary text-base leading-base ;
+    
+  } */
+  @screen md {
+    @apply bg-dark
+
   }
 
-  /* @screen md{
-    @apply bg-red-500
-  } */
 }
 
   

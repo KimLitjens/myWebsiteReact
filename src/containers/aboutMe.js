@@ -4,7 +4,7 @@ export function AboutMeContainer({ children }) {
 
     return (
         <section className="aboutMe" id="about">
-            <h2 className="sectionTitle">
+            <h2 className="sectionTitle ">
                 About Me
             </h2>
             <p className="sectionSubtitle">I am looking for a challenging job as a front-end developer at a company where I can show my programming talents and develop myself even more.</p>
