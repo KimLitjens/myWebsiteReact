@@ -9,7 +9,7 @@ module.exports = {
         },
         lineHeight: {
             'base': '1.6',
-            'headingHeight': '1.1'
+            'headingHeight': '1'
         },
         extend: {
             colors: {
@@ -17,6 +17,9 @@ module.exports = {
                 'accent': '#f59218',
                 'secondAccent': ' #aa210f',
                 'dark': '#41403c',
+            },
+            width: {
+                'subIntro': 'calc(100% + 1.5em)'
             }
         },
     },

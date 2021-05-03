@@ -3,7 +3,7 @@ import React from 'react';
 
 export function ContactContainer({ children }) {
     return (
-        <div class="container" id="contact">
+        <section class="container" id="contact">
             <div class="formBx">
                 <form
                     data-netlify="true"
@@ -79,6 +79,6 @@ export function ContactContainer({ children }) {
                     </button>
                 </form>
             </div>
-        </div>
+        </section>
     )
 }

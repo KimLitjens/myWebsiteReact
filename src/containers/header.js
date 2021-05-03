@@ -9,7 +9,7 @@ export function HeaderContainer({ children }) {
             <button className="nav-toggle" aria-label="toggle navigation">
                 <span className="hamburger"></span>
             </button>
-            <nav className="nav">
+            <nav className="nav hidden">
                 <ul className="navList bg-primary">
                     <li className="navItem"><a href="#home" className="navLink">Home</a></li>
                     <li className="navItem"><a href="#services" className="navLink">My Services</a></li>

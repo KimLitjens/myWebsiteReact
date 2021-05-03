@@ -8,6 +8,10 @@
     
   }
 
+  section {
+    @apply pl-12 pr-8 
+  }
+
   h1 {
     @apply text-5xl
   }
@@ -25,7 +29,7 @@ h1, h2, h3 {
 }
 
 img {
-  @apply max-w-full
+  @apply max-w-full max-h-72 shadow-2xl
 }
 
 .sectionTitle {
@@ -39,7 +43,7 @@ img {
 
 @screen md{
   h1 {
-    @apply text-7xl
+    @apply text-7xl 
   }
 
   h2 {
