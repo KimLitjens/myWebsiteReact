@@ -3,15 +3,56 @@
 @tailwind utilities;
 
 @layer base {
-  /* :root {
-    @apply bg-light m-0 font-primary text-base leading-base ;
+  :root {
+    @apply bg-light m-0 font-primary text-base leading-base text-dark ;
     
-  } */
-  @screen md {
-    @apply bg-dark
-
   }
 
+  h1 {
+    @apply text-5xl
+  }
+
+  h2 {
+    @apply text-4xl
+  }
+
+  h3 {
+    @apply text-xl
+  }
+
+h1, h2, h3 {
+  @apply leading-headingHeight m-0  
+}
+
+img {
+  @apply max-w-full
+}
+
+.sectionTitle {
+  @apply mb-1
+}
+
+.sectionSubtitle {
+  @apply m-0 text-xl 
+}
+}
+
+@screen md{
+  h1 {
+    @apply text-7xl
+  }
+
+  h2 {
+    @apply text-6xl
+  }
+
+  h3 {
+    @apply text-2xl 
+  }
+
+  :root {
+    @apply text-xl 
+  }
 }
 
   

@@ -10,13 +10,13 @@ export function MyWork({ children }) {
 
             <div className="portfolio">
                 <a href="#work" className="portfolioItem">
-                    <img src="/images/work1.jpg" alt="" className="portfolio h-32" />
+                    <img src="/images/work1.jpg" alt="" className="portfolio" />
                 </a>
                 <a href="#work" className="portfolioItem">
-                    <img src="/images/work2.jpg" alt="" className="portfolio h-32" />
+                    <img src="/images/work2.jpg" alt="" className="portfolio" />
                 </a>
                 <a href="#work" className="portfolioItem">
-                    <img src="/images/work3.jpg" alt="" className="portfolio h-32" />
+                    <img src="/images/work3.jpg" alt="" className="portfolio" />
                 </a>
             </div>
         </section>
