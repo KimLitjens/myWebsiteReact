@@ -20,7 +20,12 @@ module.exports = {
             },
             width: {
                 'subIntro': 'calc(100% + 1.5em)'
-            }
+            },
+            backgroundImage: theme => ({
+                'work1Img': 'url("./img/work1.jpg")',
+                'work2Img': 'url("./img/work2.jpg")',
+                'work3Img': 'url("./img/work3.jpg")',
+            })
         },
     },
     variants: {

@@ -57,6 +57,13 @@ img {
   :root {
     @apply text-xl 
   }
+  .services {
+    @apply flex max-w-full mr-auto
+  }
+
+  .service + .service {
+    @apply ml-8
+  }
 }
 
   
