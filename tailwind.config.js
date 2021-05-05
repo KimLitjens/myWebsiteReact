@@ -18,9 +18,9 @@ module.exports = {
                 'secondAccent': ' #aa210f',
                 'dark': '#41403c',
             },
-            width: {
-                'subIntro': 'calc(100% + 1.5em)'
-            },
+            // width: {
+            //     'subIntro': 'calc(100% + 1.5em)'
+            // },
             backgroundImage: theme => ({
                 'work1Img': 'url("./img/work1.jpg")',
                 'work2Img': 'url("./img/work2.jpg")',

@@ -12,7 +12,7 @@ export function IntroContainer({ children }) {
             <h1 className="sectionTitle font-secondary">
                 Hey, I am <strong className="inline-block md:block">Kim Litjens</strong>
             </h1>
-            <p className="sectionSubtitle bg-accent md:relative w-subIntro text-right self-start">front-end dev</p>
+            <p className="text-xl bg-accent md:relative text-right self-start">front-end dev</p>
 
         </section>
     )

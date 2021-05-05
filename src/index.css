@@ -36,9 +36,7 @@ img {
   @apply mb-1
 }
 
-.sectionSubtitle {
-  @apply m-0 text-xl 
-}
+
 .service {
   @apply   max-w-lg mr-auto
 }
@@ -62,9 +60,7 @@ img {
   :root {
     @apply text-xl
   }
-  .services {
-    @apply flex max-w-full mr-auto
-  }
+
 
   .service + .service {
     @apply ml-8
