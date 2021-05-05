@@ -39,7 +39,12 @@ img {
 .sectionSubtitle {
   @apply m-0 text-xl 
 }
+.service {
+  @apply   max-w-lg mr-auto
 }
+}
+
+
 
 @screen md{
   h1 {
@@ -55,7 +60,7 @@ img {
   }
 
   :root {
-    @apply text-xl 
+    @apply text-xl
   }
   .services {
     @apply flex max-w-full mr-auto
@@ -66,4 +71,3 @@ img {
   }
 }
 
-  

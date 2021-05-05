@@ -3,9 +3,9 @@ import React from 'react';
 export function WhatIDo({ children }) {
 
     return (
-        <section className="myServices bg-dark bg-work1Img bg-cover bg-blend-multiply text-light text-center h-96 " id="services">
+        <section className="myServices bg-dark bg-work1Img bg-cover bg-blend-multiply text-light text-center h-96" id="services">
             <h2 className="sectionTitle text-accent relative">What I do</h2>
-            <div className="services ">
+            <div className="services">
                 <div className="service" >
                     <h3>Design + Development</h3>
                     <p>
@@ -25,7 +25,15 @@ export function WhatIDo({ children }) {
                     </p>
                 </div>
             </div>
-            <a href="#work" className="btn bg-accent">My Work</a>
+            <a
+                href="#work"
+                className="
+                btn inline-block py-2 px-6 bg-accent text-dark cursor-pointer text-sm uppercase tracking-widest font-black
+                transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110
+                "
+            >
+                My Work
+            </a>
         </section >
     )
 }
