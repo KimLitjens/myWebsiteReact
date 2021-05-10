@@ -40,9 +40,7 @@ img {
 .service {
   @apply   max-w-lg mr-auto
 }
-}
-
-
+} 
 
 @screen md{
   h1 {
@@ -60,7 +58,6 @@ img {
   :root {
     @apply text-xl
   }
-
 
   .service + .service {
     @apply ml-8
