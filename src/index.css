@@ -9,7 +9,11 @@
   }
 
   section {
-    @apply pl-12 pr-8 
+    @apply pl-12 pr-8  
+  }
+
+  section + section {
+    @apply mb-3
   }
 
   h1 {
