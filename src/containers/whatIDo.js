@@ -3,28 +3,10 @@ import React from 'react';
 export function WhatIDo({ children }) {
 
     return (
-        <section className="myServices bg-dark bg-work1Img bg-cover bg-blend-multiply text-light text-center py-4" id="services">
-            <h2 className="sectionTitle text-accent relative">What I do</h2>
-            <div className="services my-4 md:flex max-w-full mr-auto ">
-                <div className="service" >
-                    <h3>Design + Development</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                </div>
-                <div className="service">
-                    <h3>E-Commerce</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                </div>
-                <div className="service">
-                    <h3>WordPress</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                </div>
-            </div>
+        <section className="myServices bg-dark bg-work1Img bg-cover bg-blend-multiply text-light text-center py-16" id="services">
+            <h2 className="sectionTitle text-accent relative my-4">What I do</h2>
+            <h3 className="my-4">Front-end development</h3>
+            <p className="my-4">Creating beautiful and responsive websites and web applications</p>
             <a
                 href="#work"
                 className="
