@@ -5,7 +5,7 @@ export function IntroContainer({ children }) {
 
 
     return (
-        <section className="intro relative md:flex min-w-min py-16" id="home">
+        <section className="intro relative md:flex justify-center min-w-min py-24 mb-12" id="home">
             <img
                 src="/images/kim.jpg"
                 alt="Kim"
