@@ -16,7 +16,7 @@ export function FooterContainer({ children }) {
                 <li className="socialListItem flex">
                     <FontAwesomeIcon icon={faLinkedinIn} /> <p className="ml-1">Linkedin</p>
                 </li>
-                <li className="socialListItem">Something else</li>
+                {/* <li className="socialListItem">Something else</li> */}
             </ul>
         </footer>
 
