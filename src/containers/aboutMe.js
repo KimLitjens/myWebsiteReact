@@ -3,20 +3,22 @@ import React from 'react';
 export function AboutMeContainer({ children }) {
 
     return (
-        <section className="aboutMe md:grid grid-cols-2 grid-rows-3 gap-4 min-w-min ml-0 mr-auto" id="about">
-            <h2 className="sectionTitle">
-                Who I am
-            </h2>
+        <section className="mx-8 md: md:flex justify-center py-24 min-w-min" id="about">
+            <div className="">
+                <h1 className="my-4">
+                    Who I am
+            </h1>
+
+                <p className="text-xl my-4 bg-accent font-secondary md: self-start">front-end dev from the Netherlands</p>
+                <div className="my-4">
+                    <p>I am looking for a challenging job as a front-end developer at a company where I can show my programming talents and develop myself even more.</p>
+                </div>
+            </div>
             <img
                 src="/images/kim.jpg"
                 alt="kim"
-                className="md:relative row-span-3 min-w-250 z-2 flex justify-end"
+                className="md:min-w-250 z-2 "
             />
-            <p className="text-xl bg-accent font-secondary md: self-start">front-end dev from the Netherlands</p>
-            <div className="aboutMeBody ">
-                <p>I am looking for a challenging job as a front-end developer at a company where I can show my programming talents and develop myself even more.</p>
-                <p>some other texxt</p>
-            </div>
         </section>
     )
 }

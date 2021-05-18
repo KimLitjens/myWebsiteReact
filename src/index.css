@@ -8,9 +8,7 @@
     
   }
 
-  section {
-    @apply pl-12 pr-8  
-  }
+ 
 
   section + section {
     @apply mb-3
