@@ -12,28 +12,27 @@ export function ContactContainer({ children }) {
                     name="contact"
                     data-netlify-recaptcha="true"
                     action="/dist/index.html?succesfull"
-                    novalidate
+                    noValidate
                 >
                     <h2>Contact me</h2>
-                    <div class="relative z-0 w-full mb-5 form-group ">
+                    <div className="relative z-0 w-full mb-5 form-group ">
                         <input
                             type="text"
                             name="name"
                             placeholder="Enter name "
                             required
-                            class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 border-black appearance-none focus:outline-none focus:ring-0 focus:border-accent border-gray-200"
+                            className="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 border-black appearance-none focus:outline-none focus:ring-0 focus:border-accent border-gray-200"
                         />
-                        {/* <label for="name" class="absolute duration-300 top-3 -z-1 origin-0 text-gray-500">Enter name</label> */}
-                        {/* <span class="text-sm text-red-600 hidden" id="error">Name is required</span> */}
+                        {/* <label for="name" className="absolute duration-300 top-3 -z-1 origin-0 text-gray-500">Enter name</label> */}
+                        {/* <span className="text-sm text-red-600 hidden" id="error">Name is required</span> */}
                     </div>
                     <div className="form-group inputBox">
                         <input
                             type="email"
                             name="email"
                             id="email"
-                            className="form-control"
                             placeholder="Email Address"
-                            class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 border-black appearance-none focus:outline-none focus:ring-0 focus:border-accent border-gray-200"
+                            className="form-control pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 border-black appearance-none focus:outline-none focus:ring-0 focus:border-accent border-gray-200"
                             required
                         />
 
@@ -43,9 +42,8 @@ export function ContactContainer({ children }) {
                             type="text"
                             name="subject"
                             id="subject"
-                            className="form-control"
                             placeholder="Subject"
-                            class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 border-black appearance-none focus:outline-none focus:ring-0 focus:border-accent border-gray-200"
+                            className="form-control pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 border-black appearance-none focus:outline-none focus:ring-0 focus:border-accent border-gray-200"
                             required
                         />
 
@@ -57,8 +55,7 @@ export function ContactContainer({ children }) {
                             cols="30"
                             rows="5"
                             required
-                            className="form-control"
-                            class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 border-black appearance-none focus:outline-none focus:ring-0 focus:border-accent border-gray-200"
+                            className="form-control pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 border-black appearance-none focus:outline-none focus:ring-0 focus:border-accent border-gray-200"
                             placeholder="Type Your Message Here..."
                         ></textarea>
                         <span></span>

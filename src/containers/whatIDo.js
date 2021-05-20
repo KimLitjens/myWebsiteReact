@@ -1,29 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useObserve } from "react-observe-component"
 
 export function WhatIDo({ children }) {
-    const callback = function (entries) {
-        entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-                entry.target.classList.remove("scale-0")
-            } else {
-                entry.target.classList.add("scale-0");
-            }
-        });
-    };
+    const [inView, setIsInView] = useState(false)
 
-    const observer = new IntersectionObserver(callback);
-
-    const targets = document.querySelectorAll(".js-show-on-scroll");
-    targets.forEach(function (target) {
-        // target.classList.add("opacity-0");
-        observer.observe(target);
-    });
-
+    const { elementRef } = useObserve({
+        isIntersecting: () => setIsInView(true),
+        isNotIntersecting: () => setIsInView(false),
+        options: {
+            threshold: 0.5
+        }
+    })
 
     return (
         <section className="myServices bg-dark bg-work1Img bg-cover bg-blend-multiply text-light text-center py-16" id="services">
             <h2 className="sectionTitle text-accent relative my-4">What I do</h2>
-            <div className="js-show-on-scroll transform duration-1000 scale-0">
+            <div className={`js-show-on-scroll transform duration-1000 ${inView ? 'scale-1' : 'scale-0'}`} ref={elementRef}>
                 <h3 className="my-4">Front-end development</h3>
                 <p className="my-4">Creating beautiful and responsive websites and web applications</p>
                 <a
@@ -36,7 +28,6 @@ export function WhatIDo({ children }) {
                     My Work
             </a>
             </div>
-
         </section >
     )
 }
