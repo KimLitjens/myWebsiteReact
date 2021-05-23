@@ -29,6 +29,14 @@ export function MyWork({ children }) {
                     header={"My Netflix Clone"}
                 />
 
+                <MyWorkComp
+                    fadeInCorner={"topcorner"}
+                    href={"https://www.producentenorganisatieindelandbouw.nl/"}
+                    imgSrc="/images/producentOrg.png"
+                    alt={"productenOrganisaties"}
+                    header={"ProducentenOrganisaties"}
+                />
+
             </div >
 
         </section >

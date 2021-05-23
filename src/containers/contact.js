@@ -21,7 +21,7 @@ export function ContactContainer({ children }) {
                     name="contact"
                     className="needs-validation"
                     method="post"
-                    action="/contact/?success=true"
+                    action="#contact/?success=true"
                     data-netlify="true"
                 >
                     <input type="hidden" name="form-name" value="contact" />
