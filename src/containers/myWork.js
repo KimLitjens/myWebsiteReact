@@ -1,6 +1,9 @@
 import React from 'react'
+import MyWorkComp from '../components/myWorkComp'
+
 
 export function MyWork({ children }) {
+
     return (
         <section className="flex justify-center bg-dark bg-work2Img bg-cover bg-blend-multiply text-accent" id="work">
             <div>
@@ -10,33 +13,25 @@ export function MyWork({ children }) {
                 </h2>
                     <p className="">A selection of my previous projects and websites</p>
                 </div>
-                <div className="flex">
-                    <div className="m-8">
-                        <a href="https://insta-scrim.netlify.app/" className="">
-                            <img src="/images/myInstaClone.png" alt="myInstaClone" className="w-80" />
-                        </a>
-                    </div>
-                    <div className="flex justify-center m-8">
-                        <h3 className="">
-                            My Instagram Clone
-                    </h3>
-                    </div>
-                </div>
-                <div className="flex">
-                    <div className="m-8">
-                        <a href="https://netflif-scrim.netlify.app/" className="">
-                            <img src="/images/myNetflixClone.png" alt="myNetflixClone" className="w-80" />
-                        </a>
-                    </div>
-                    <div className="flex justify-center m-8">
-                        <h3 className="">
-                            My Netflix Clone
-                    </h3>
-                    </div>
-                </div>
+                <MyWorkComp
+                    fadeInCorner={"topcorner"}
+                    href={"https://insta-scrim.netlify.app/"}
+                    imgSrc="/images/myInstaClone.png"
+                    alt={"myInstaClone"}
+                    header={"My Instagram Clone"}
+                />
 
-            </div>
+                <MyWorkComp
+                    fadeInCorner={"bottomCorner"}
+                    href={"https://netflif-scrim.netlify.app/"}
+                    imgSrc="/images/myNetflixClone.png"
+                    alt={"myNetflixClone"}
+                    header={"My Netflix Clone"}
+                />
 
-        </section>
+            </div >
+
+        </section >
     )
 }
+
