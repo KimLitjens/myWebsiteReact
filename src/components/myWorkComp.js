@@ -16,7 +16,7 @@ export default function MyWorkComp({ fadeInCorner, href, imgSrc, alt, header }) 
             <div className={`m-8 ${inView ? 'transform duration-1000 translate-x-0 opacity-1'
                 : fadeInCorner === "topcorner" ? 'transform -translate-x-full -translate-y-full opacity-0'
                     : 'transform -translate-x-full translate-y-full opacity-0'}`} >
-                <a href={href} className="">
+                <a href={href} className="" target="_blank">
                     <img src={imgSrc} alt={alt} className="w-80" />
                 </a>
             </div>
