@@ -40,7 +40,7 @@ export function MyWork({ children }) {
                     imgSrc="/images/producentOrg.png"
                     alt={"productenOrganisaties"}
                     header={"ProducentenOrganisaties"}
-                    text={"This website I build for my mother who did the layout and styling"}
+                    text={"This website I build using HTML, Javascrip, CSS/Bootstrap. This website is for my mother who did the layout and styling"}
                 />
 
             </div >

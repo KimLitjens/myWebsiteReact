@@ -10,8 +10,10 @@ export function AboutMeContainer({ children }) {
             </h1>
 
                 <p className="text-xl my-4 bg-accent font-secondary md: self-start">front-end dev from the Netherlands</p>
-                <div className="my-4">
-                    <p>I am looking for a challenging job as a front-end developer at a company where I can show my programming talents and develop myself even more.</p>
+                <div className="my-4 pr-4">
+                    <p>
+                        I'm a studios and ambitious web developer. Right now I'm focusing on the front-end, in particular React.
+                        In the future I also want to learn back-end. I'm looking for a challenging job as a front-end developer at a company where I can show my programming talents and develop myself even more.</p>
                 </div>
             </div>
             <img
