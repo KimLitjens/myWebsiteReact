@@ -5,8 +5,7 @@ import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 export function FooterContainer({ children }) {
     return (
         <footer className="p-10 bg-dark text-accent" id="footer">
-
-            <ul className="socialList flex inline-blok justify-center">
+            <ul className="flex justify-center">
                 <li className="mr-8">
                     <a href="https://github.com/KimLitjens" target="_blank">
                         <FontAwesomeIcon icon={faGithub} size="2x" />
@@ -19,6 +18,5 @@ export function FooterContainer({ children }) {
                 </li>
             </ul>
         </footer>
-
     )
 }

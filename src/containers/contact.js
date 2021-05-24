@@ -10,11 +10,15 @@ export function ContactContainer({ children }) {
         }
     }, []);
 
-
     return (
-        <section className="flex justify-center  py-16" id="contact">
+        <section
+            className="flex justify-center py-16"
+            id="contact"
+        >
             <div className="">
-                <h2 className="text-accent">Contact me</h2>
+                <h2 className="text-accent">
+                    Contact me
+                </h2>
                 {success && (
                     <p style={{ color: "green" }}>Thanks for your message! </p>
                 )}
@@ -34,7 +38,8 @@ export function ContactContainer({ children }) {
                             required
                             className="
                             pt-3 pb-2 block w-full px-0 mt-0
-                            bg-transparent border-0 border-b-2 border-gray-400 appearance-none 
+                            bg-transparent border-0 border-b-2 border-gray-400 
+                            appearance-none 
                             focus:outline-none 
                             focus:ring-0 
                             focus:border-accent 
@@ -49,7 +54,8 @@ export function ContactContainer({ children }) {
                             placeholder="Email Address"
                             className="
                             pt-3 pb-2 block w-full px-0 mt-0 
-                            bg-transparent border-0 border-b-2 border-gray-400 appearance-none 
+                            bg-transparent border-0 border-b-2 border-gray-400 
+                            appearance-none 
                             focus:outline-none 
                             focus:ring-0 
                             focus:border-accent 
@@ -66,7 +72,8 @@ export function ContactContainer({ children }) {
                             placeholder="Subject"
                             className="
                             pt-3 pb-2 block w-full px-0 mt-0
-                            bg-transparent border-0 border-b-2 border-gray-400 appearance-none 
+                            bg-transparent border-0 border-b-2 border-gray-400 
+                            appearance-none 
                             focus:outline-none 
                             focus:ring-0 
                             focus:border-accent 
@@ -84,7 +91,8 @@ export function ContactContainer({ children }) {
                             required
                             className="
                             pt-3 pb-2 block w-full px-0 mt-0 
-                            bg-transparent border-0 border-b-2 border-gray-400 appearance-none 
+                            bg-transparent border-0 border-b-2 border-gray-400 
+                            appearance-none 
                             focus:outline-none 
                             focus:ring-0 
                             focus:border-accent 
@@ -92,7 +100,6 @@ export function ContactContainer({ children }) {
                             placeholder="Type Your Message Here..."
                         ></textarea>
                     </div>
-                    <div data-netlify-recaptcha="true"></div>
                     <div className="flex justify-center mt-12">
                         <button
                             type="submit"

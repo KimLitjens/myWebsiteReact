@@ -12,13 +12,52 @@ export function HeaderContainer({ children }) {
             <div className="fixed z-50 top-0 right-0">
                 <Hamburger open={open} setOpen={setOpen} />
             </div>
-            <nav className={`fixed z-40 bg-accent text-dark w-full ${open ? "transform duration-500 translate-x-0" : "transform duration-500 translate-x-full"}`}>
-                <ul className="navList h-screen flex flex-col justify-evenly text-5xl text-center">
-                    <li className="navItem"><a href="#home" className="navLink hover:text-light" onClick={() => setOpen(!open)}>Home</a></li>
-                    <li className="navItem"><a href="#services" className="navLink hover:text-light" onClick={() => setOpen(!open)}>My Services</a></li>
-                    <li className="navItem"><a href="#about" className="navLink hover:text-light" onClick={() => setOpen(!open)}>About me</a></li>
-                    <li className="navItem"><a href="#work" className="navLink hover:text-light" onClick={() => setOpen(!open)}>My Work</a></li>
-                    <li className="navItem"><a href="#contact" className="navLink hover:text-light" onClick={() => setOpen(!open)}>Contact</a></li>
+            <nav
+                className={`fixed z-40 bg-accent text-dark w-full 
+                            ${open ? "transform duration-500 translate-x-0"
+                        : "transform duration-500 translate-x-full"}`}
+            >
+                <ul className="h-screen flex flex-col justify-evenly text-5xl text-center">
+                    <li className="">
+                        <a href="#home"
+                            className="hover:text-light"
+                            onClick={() => setOpen(!open)}
+                        >
+                            Home
+                        </a>
+                    </li>
+                    <li className="">
+                        <a href="#services"
+                            className="hover:text-light"
+                            onClick={() => setOpen(!open)}
+                        >
+                            My Services
+                    </a>
+                    </li>
+                    <li className="">
+                        <a href="#about"
+                            className="hover:text-light"
+                            onClick={() => setOpen(!open)}
+                        >
+                            About me
+                        </a>
+                    </li>
+                    <li className="">
+                        <a href="#work"
+                            className="hover:text-light"
+                            onClick={() => setOpen(!open)}
+                        >
+                            My Work
+                        </a>
+                    </li>
+                    <li className="">
+                        <a href="#contact"
+                            className="hover:text-light"
+                            onClick={() => setOpen(!open)}
+                        >
+                            Contact
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </header>

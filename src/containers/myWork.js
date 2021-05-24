@@ -5,13 +5,19 @@ import MyWorkComp from '../components/myWorkComp'
 export function MyWork({ children }) {
 
     return (
-        <section className="flex justify-center p-16 bg-dark bg-work2Img bg-cover bg-blend-multiply text-accent" id="work">
+        <section
+            className="flex justify-center p-16 
+                        bg-dark bg-work2Img bg-cover bg-blend-multiply text-accent"
+            id="work"
+        >
             <div>
                 <div className=" text-center">
-                    <h2 className=" mb-2">
+                    <h2 className="mb-2">
                         My Work
-                </h2>
-                    <p className="text-white mb-8">A selection of my previous projects and websites</p>
+                    </h2>
+                    <p className="mb-8 text-white ">
+                        A selection of my previous projects and websites
+                    </p>
                 </div>
                 <MyWorkComp
                     fadeInCorner={"topcorner"}
@@ -42,10 +48,8 @@ export function MyWork({ children }) {
                     header={"ProducentenOrganisaties"}
                     text={"This website I build using HTML, Javascrip, CSS/Bootstrap. This website is for my mother who did the layout and styling"}
                 />
-
-            </div >
-
-        </section >
+            </div>
+        </section>
     )
 }
 
