@@ -10,8 +10,9 @@ export function ContactContainer({ children }) {
         }
     }, []);
 
+
     return (
-        <section className="flex justify-center" id="contact">
+        <section className="flex justify-center  py-16" id="contact">
             <div className="">
                 <h2 className="text-accent">Contact me</h2>
                 {success && (
@@ -29,24 +30,26 @@ export function ContactContainer({ children }) {
                         <input
                             type="text"
                             name="name"
-                            placeholder="Enter name"
+                            placeholder="Name"
                             required
                             className="
-                            pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 border-gray-200 appearance-none 
+                            pt-3 pb-2 block w-full px-0 mt-0
+                            bg-transparent border-0 border-b-2 border-gray-400 appearance-none 
                             focus:outline-none 
                             focus:ring-0 
                             focus:border-accent 
                             "
                         />
                     </div>
-                    <div className="">
+                    <div className="mb-5">
                         <input
                             type="email"
                             name="email"
                             id="email"
                             placeholder="Email Address"
                             className="
-                            pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 border-gray-200 appearance-none 
+                            pt-3 pb-2 block w-full px-0 mt-0 
+                            bg-transparent border-0 border-b-2 border-gray-400 appearance-none 
                             focus:outline-none 
                             focus:ring-0 
                             focus:border-accent 
@@ -55,14 +58,15 @@ export function ContactContainer({ children }) {
                         />
 
                     </div>
-                    <div className="">
+                    <div className="mb-5">
                         <input
                             type="text"
                             name="subject"
                             id="subject"
                             placeholder="Subject"
                             className="
-                            pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 border-gray-200 appearance-none 
+                            pt-3 pb-2 block w-full px-0 mt-0
+                            bg-transparent border-0 border-b-2 border-gray-400 appearance-none 
                             focus:outline-none 
                             focus:ring-0 
                             focus:border-accent 
@@ -71,7 +75,7 @@ export function ContactContainer({ children }) {
                         />
 
                     </div>
-                    <div className=" mb-2">
+                    <div className=" mb-5">
                         <textarea
                             name="message"
                             id="message"
@@ -79,7 +83,8 @@ export function ContactContainer({ children }) {
                             rows="5"
                             required
                             className="
-                            pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 border-gray-200 appearance-none 
+                            pt-3 pb-2 block w-full px-0 mt-0 
+                            bg-transparent border-0 border-b-2 border-gray-400 appearance-none 
                             focus:outline-none 
                             focus:ring-0 
                             focus:border-accent 
@@ -88,18 +93,19 @@ export function ContactContainer({ children }) {
                         ></textarea>
                     </div>
                     <div data-netlify-recaptcha="true"></div>
-                    <div className="flex  justify-center">
+                    <div className="flex justify-center mt-12">
                         <button
                             type="submit"
                             value="SEND MES"
                             name="submit"
                             className="
-                            py-2 px-6 bg-accent text-dark rounded-md cursor-pointer text-sm uppercase tracking-widest font-black
+                            py-2 px-6 bg-accent text-dark rounded-md cursor-pointer
+                            text-sm uppercase tracking-widest font-black
                             transition duration-200 ease-in-out 
                             transform 
                             hover:-translate-y-1 
                             hover:scale-110
-                        "
+                            "
                         >
                             SEND
                     </button>
@@ -109,3 +115,4 @@ export function ContactContainer({ children }) {
         </section>
     )
 }
+

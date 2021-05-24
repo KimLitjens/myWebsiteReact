@@ -3,7 +3,7 @@ import React from 'react';
 export function AboutMeContainer({ children }) {
 
     return (
-        <section className="mx-16 md: md:flex justify-center py-24 min-w-min" id="about">
+        <section className="px-8 md:flex justify-self-center mx-auto py-24 max-w-screen-lg" id="about">
             <div className="">
                 <h1 className="my-4">
                     Who I am

@@ -3,7 +3,7 @@ import React from 'react';
 export function IntroContainer({ children }) {
 
     return (
-        <section className="intro mx-8 md:flex justify-center min-w-min py-24 mb-12" id="home">
+        <section className="intro px-8 md:flex justify-center min-w-min py-24 mb-12" id="home">
             <img
                 src="/images/kim.jpg"
                 alt="Kim"
