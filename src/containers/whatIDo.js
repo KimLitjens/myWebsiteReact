@@ -18,15 +18,17 @@ export function WhatIDo({ children }) {
             <div className={`js-show-on-scroll transform duration-1000 ${inView ? 'scale-1' : 'scale-0'}`} ref={elementRef}>
                 <h3 className="my-4">Front-end development</h3>
                 <p className="my-4">Creating beautiful and responsive websites and web applications</p>
-                <a
-                    href="#work"
-                    className="
+                <button>
+                    <a
+                        href="#work"
+                        className="
                     rounded inline-block py-2 px-6 bg-accent text-dark cursor-pointer text-sm uppercase tracking-widest font-black
                     transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110
                     "
-                >
-                    My Work
-            </a>
+                    >
+                        My Work
+                    </a>
+                </button>
             </div>
         </section >
     )

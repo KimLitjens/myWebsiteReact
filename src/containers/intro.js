@@ -7,7 +7,8 @@ export function IntroContainer({ children }) {
             <img
                 src="/images/kim.jpg"
                 alt="Kim"
-                className="object-bottom md:relative min-w-250 z-2  mx-4"
+                className="object-bottom md:relative min-w-250 z-2 mx-4"
+                id="profilePic"
             />
             <div className="flex-col justify-between">
                 <h1 className="font-secondary mb-4 px-4">

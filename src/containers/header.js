@@ -6,8 +6,8 @@ export function HeaderContainer({ children }) {
 
     return (
         <header className="">
-            <div className="fixed z-50 top-0 left-0">
-                <p>logo</p>
+            <div className="fixed z-50 p-3 top-0 left-0 text-accent text-center">
+                <p>Kim <br /> Litjens</p>
             </div>
             <div className="fixed z-50 top-0 right-0">
                 <Hamburger open={open} setOpen={setOpen} />

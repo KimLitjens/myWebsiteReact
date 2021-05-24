@@ -3,7 +3,7 @@ import React from 'react';
 export function AboutMeContainer({ children }) {
 
     return (
-        <section className="mx-8 md: md:flex justify-center py-24 min-w-min" id="about">
+        <section className="mx-16 md: md:flex justify-center py-24 min-w-min" id="about">
             <div className="">
                 <h1 className="my-4">
                     Who I am
@@ -18,6 +18,7 @@ export function AboutMeContainer({ children }) {
                 src="/images/kim.jpg"
                 alt="kim"
                 className="md:min-w-250 z-2 "
+                id="profilePic"
             />
         </section>
     )

@@ -6,17 +6,17 @@ export function FooterContainer({ children }) {
     return (
         <footer className="p-10 bg-dark text-accent" id="footer">
 
-            <ul className="socialList flex inline-blok justify-between">
-                <li className="socialListItem">
-                    <a href="mailto:myMailAdres@gmail.com" className="footerLink">My mailadres</a>
+            <ul className="socialList flex inline-blok justify-center">
+                <li className="mr-8">
+                    <a href="https://github.com/KimLitjens" target="_blank">
+                        <FontAwesomeIcon icon={faGithub} size="2x" />
+                    </a>
                 </li>
-                <li className="socialListItem">
-                    <FontAwesomeIcon icon={faGithub} /> Github
+                <li className="">
+                    <a href="https://www.linkedin.com/in/kim-litjens/" target="_blank">
+                        <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
+                    </a>
                 </li>
-                <li className="socialListItem flex">
-                    <FontAwesomeIcon icon={faLinkedinIn} /> <p className="ml-1">Linkedin</p>
-                </li>
-                {/* <li className="socialListItem">Something else</li> */}
             </ul>
         </footer>
 

@@ -8,7 +8,12 @@
     
   }
 
- 
+  hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(245, 146, 24), rgba(0, 0, 0, 0));
+}
+
 
   section + section {
     @apply mb-3
@@ -23,14 +28,14 @@
   }
 
   h3 {
-    @apply text-xl
+    @apply text-2xl
   }
 
 h1, h2, h3 {
   @apply leading-headingHeight m-0  
 }
 
-img {
+img{
   @apply max-w-full max-h-72 shadow-2xl
 }
 
@@ -54,7 +59,7 @@ img {
   }
 
   h3 {
-    @apply text-2xl 
+    @apply text-3xl 
   }
 
   :root {
