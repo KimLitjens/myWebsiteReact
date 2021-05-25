@@ -6,8 +6,7 @@ export function MyWork({ children }) {
 
     return (
         <section
-            className="flex justify-center p-16 
-                        bg-dark bg-work2Img bg-cover bg-blend-multiply text-accent"
+            className="flex justify-center p-16 bg-dark text-accent"
             id="work"
         >
             <div>
@@ -45,7 +44,7 @@ export function MyWork({ children }) {
                     codeHref={"https://github.com/KimLitjens/POindelandbouw"}
                     imgSrc="/images/producentOrg.png"
                     alt={"productenOrganisaties"}
-                    header={"ProducentenOrganisaties"}
+                    header={"Prod. Org."}
                     text={"This website I build using HTML, Javascrip, CSS/Bootstrap. This website is for my mother who did the layout and styling"}
                 />
             </div>

@@ -21,7 +21,7 @@ export default function MyWorkComp({ fadeInCorner, projectHref, codeHref, imgSrc
                             : fadeInCorner === "topcorner" ? 'transform -translate-x-full -translate-y-full opacity-0'
                                 : 'transform -translate-x-full translate-y-full opacity-0'} 
                  md:w-1/2`} >
-                    <a href={projectHref} className="" target="_blank">
+                    <a href={projectHref} className="m-auto" target="_blank">
                         <img src={imgSrc} alt={alt} className="" />
                     </a>
                 </div>
@@ -60,7 +60,7 @@ export default function MyWorkComp({ fadeInCorner, projectHref, codeHref, imgSrc
                     </div>
                 </div>
             </div>
-            <hr className="" />
+            <hr className="m-auto w-4/6 border-1 border-accent" />
         </div>
     );
 }
