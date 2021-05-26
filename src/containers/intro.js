@@ -23,6 +23,20 @@ export function IntroContainer({ children }) {
                 >
                     front-end dev
                 </p>
+                <p className="text-secondAccent text-center">
+                    Currently available for hire. I'm looking for a front-end job in React. <br /> Should you have any questions do not hesitate to contact me by filling out the <br /> <a
+                        href="#contact"
+                        className="
+                        rounded inline-block mt-4 py-2 px-6 bg-secondAccent 
+                        text-light cursor-pointer text-sm uppercase tracking-widest font-black
+                        transition duration-200 ease-in-out 
+                        transform hover:-translate-y-1 hover:scale-110
+                        "
+
+                    >
+                        contact form
+                    </a>.
+                </p>
             </div>
         </section>
     )

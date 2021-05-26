@@ -12,10 +12,11 @@ export function ContactContainer({ children }) {
 
     return (
         <section
-            className="flex justify-center py-16"
+            className="flex justify-center text-center mx-auto px-8 py-16 max-w-screen-lg"
             id="contact"
         >
             <div className="">
+                <p className="text-secondAccent pb-8">Currently available for hire. I'm looking for a front-end job in React. Should you have any questions do not hesitate to contact me by filling out form below.</p>
                 <h2 className="text-accent">
                     Contact me
                 </h2>
@@ -122,4 +123,3 @@ export function ContactContainer({ children }) {
         </section>
     )
 }
-
