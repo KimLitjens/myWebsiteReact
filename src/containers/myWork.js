@@ -45,7 +45,7 @@ export function MyWork({ children }) {
                     imgSrc="/images/producentOrg.png"
                     alt={"productenOrganisaties"}
                     header={"Prod. Org."}
-                    text={"This website I build using HTML, Javascrip, CSS/Bootstrap. This website is for my mother who did the layout and styling"}
+                    text={"This website I build using HTML, Javascript, CSS/Bootstrap. This website is for my mother who did the layout and styling"}
                 />
             </div>
         </section>
