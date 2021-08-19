@@ -20,6 +20,16 @@ export function MyWork({ children }) {
                 </div>
                 <MyWorkComp
                     fadeInCorner={"topcorner"}
+                    projectHref={"https://my-moviesearch-website.netlify.app/"}
+                    codeHref={"https://github.com/KimLitjens/moviesearchscrim"}
+                    imgSrc="/images/myMovieSearch.png"
+                    alt={"my Movie Search Website"}
+                    header={"My Movie Search Website"}
+                    text={"This is a website I build where you can search for info(inclusive Trailer) about movies and series using the TMDb Api. I used React, Netlify Functions and Tailwind."}
+                />
+
+                <MyWorkComp
+                    fadeInCorner={"bottomCorner"}
                     projectHref={"https://netflif-scrim.netlify.app/"}
                     codeHref={"https://github.com/KimLitjens/netflix-scrim"}
                     imgSrc="/images/myNetflixClone.png"
@@ -29,7 +39,7 @@ export function MyWork({ children }) {
                 />
 
                 <MyWorkComp
-                    fadeInCorner={"bottomCorner"}
+                    fadeInCorner={"topcorner"}
                     projectHref={"https://insta-scrim.netlify.app/"}
                     codeHref={"https://github.com/KimLitjens/insta-scrim"}
                     imgSrc="/images/myInstaClone.png"
