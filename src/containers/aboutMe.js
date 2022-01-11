@@ -25,7 +25,7 @@ export function AboutMeContainer({ children }) {
                 src="/images/kim.jpg"
                 alt="kim"
                 className="md:min-w-250 "
-                id="profilePic"
+                id="profilePicAboutMe"
             />
         </section>
     )

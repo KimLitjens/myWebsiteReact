@@ -7,7 +7,7 @@ export function MyWork({ children }) {
     return (
         <section
             className="flex justify-center p-16 bg-dark text-accent"
-            id="work"
+            id="workContainer"
         >
             <div>
                 <div className=" text-center">

@@ -13,7 +13,7 @@ export function ContactContainer({ children }) {
     return (
         <section
             className="flex justify-center text-center mx-auto px-8 py-16 max-w-screen-lg"
-            id="contact"
+            id="contactContainer"
         >
             <div className="">
                 <p className="text-secondAccent pb-8">Currently available for hire. I'm looking for a front-end job in React. Should you have any questions do not hesitate to contact me by filling out form below.</p>
@@ -116,7 +116,7 @@ export function ContactContainer({ children }) {
                             "
                         >
                             SEND
-                    </button>
+                        </button>
                     </div>
                 </form>
             </div>

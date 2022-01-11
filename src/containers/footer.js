@@ -4,7 +4,7 @@ import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 export function FooterContainer({ children }) {
     return (
-        <footer className="p-10 bg-dark text-accent" id="footer">
+        <footer className="p-10 bg-dark text-accent" id="footerContainer">
             <ul className="flex justify-center">
                 <li className="mr-8">
                     <a href="https://github.com/KimLitjens" target="_blank">
