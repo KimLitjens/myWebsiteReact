@@ -24,7 +24,8 @@ export function IntroContainer({ children }) {
                     front-end dev
                 </p>
                 <p className="text-secondAccent text-center">
-                    Currently available for hire. I'm looking for a front-end job in React. <br /> Should you have any questions do not hesitate to contact me by filling out the <br /> <a
+                    {/* Currently available for hire. I'm looking for a front-end job in React. <br /> Should you have any questions do not hesitate to contact me by filling out the <br />  */}
+                    <a
                         href="#contact"
                         className="
                         rounded inline-block mt-4 py-2 px-6 bg-secondAccent 
@@ -35,7 +36,7 @@ export function IntroContainer({ children }) {
 
                     >
                         contact form
-                    </a>.
+                    </a>
                 </p>
             </div>
         </section>
