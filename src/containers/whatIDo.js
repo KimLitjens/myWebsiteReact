@@ -26,10 +26,10 @@ export function WhatIDo({ children }) {
                             ${inView ? 'scale-1' : 'scale-0'}`}
                 ref={elementRef}
             >
-                <h3 className="my-4">Front-end development</h3>
-                <p className="my-4">
+                <h3 className="my-4">Backend development | Python </h3>
+                {/* <p className="my-4">
                     Creating beautiful and responsive websites and web applications
-                </p>
+                </p> */}
                 <button>
                     <a
                         href="#work"

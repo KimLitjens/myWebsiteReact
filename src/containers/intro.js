@@ -21,7 +21,7 @@ export function IntroContainer({ children }) {
                 <p
                     className="bg-accent text-xl pr-4 md:relative text-right self-start"
                 >
-                    front-end dev
+                    Junior Backend Developer | Python
                 </p>
                 <p className="text-secondAccent text-center">
                     {/* Currently available for hire. I'm looking for a front-end job in React. <br /> Should you have any questions do not hesitate to contact me by filling out the <br />  */}

@@ -12,12 +12,13 @@ export function AboutMeContainer({ children }) {
                     Who I am
                 </h1>
                 <p className="text-xl my-4 bg-accent font-secondary md: self-start">
-                    front-end developer from the Netherlands
+                    Backend developer from the Netherlands
                 </p>
                 <div className="my-4 pr-4">
                     <p>
-                        I'm a studious and ambitious web developer. Right now I'm focusing on the front-end, in particular React.
-                        In the future I also want to learn back-end. I'm looking for a challenging job as a front-end developer at a company where I can show my programming talents and develop myself even more.
+                        As a junior backend developer in training, I am currently making a conscious switch from frontend to backend development.
+                        After a period in which I immersed myself in HTML, CSS, JavaScript and react, I noticed that my strength lies in structuring systems logically, analysing processes and finding (creative) solutions.
+                        Exactly the challenges you find in backend development.
                     </p>
                 </div>
             </div>

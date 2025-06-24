@@ -16,7 +16,7 @@ export function ContactContainer({ children }) {
             id="contactContainer"
         >
             <div className="">
-                <p className="text-secondAccent pb-8">Currently available for hire. I'm looking for a front-end job in React. Should you have any questions do not hesitate to contact me by filling out form below.</p>
+                <p className="text-secondAccent pb-8">Currently available for hire. I'm looking for a backend developer job with Python. Should you have any questions do not hesitate to contact me by filling out form below.</p>
                 <h2 className="text-accent">
                     Contact me
                 </h2>
